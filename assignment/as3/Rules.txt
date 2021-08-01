@@ -1,0 +1,27 @@
+User Input:
+-----------
+Support: 0.3
+Confidence: 0.6
+
+Rules:
+-----------
+Rule#1: 
+{Humidity=normal} => {PlayTennis=P}
+(Support=0.43, Confidence=0.86)
+
+
+Rule#2: 
+{PlayTennis=P} => {Humidity=normal}
+(Support=0.43, Confidence=0.67)
+
+
+Rule#3: 
+{Windy=FALSE} => {PlayTennis=P}
+(Support=0.43, Confidence=0.75)
+
+
+Rule#4: 
+{PlayTennis=P} => {Windy=FALSE}
+(Support=0.43, Confidence=0.67)
+
+
